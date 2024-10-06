@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(./clk.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+
+.clock{
+    position: absolute;
+    width: 700px;
+    height: 300px; ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+     border-radius: 15px;
+     flex-direction: column;
+     background-color: transparent gray;
+     /* border: 1px solid black; */
+     box-shadow: 0px 0px 2px 5px #1f1f1f ;
+     
+     
+}
+#date{
+    font-size: 50px;
+    text-align: center;
+    /* padding: 20px 10rem; */
+    /* margin: 20px; */
+    color: #fff;
+}
+.clock ul {
+    list-style: none;
+    display: flex;
+    font-size: 90px;
+    gap: 15px;
+    /* margin: 60px; */
+}
+.clock ul li{
+    color: #FFF;
+}
+#time{
+    font-size: 80px;
+    color: white;
+}
